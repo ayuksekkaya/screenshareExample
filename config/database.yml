@@ -59,7 +59,7 @@ test:
   <<: *default
   database: video_watch_party_test
   adapter: postgresql
-  host: localhost
+  host: ''
   encoding: unicode
   username: <%= ENV["POSTGRES_USER"] %>
   password: <%= ENV["POSTGRES_PASSWORD"] %>
